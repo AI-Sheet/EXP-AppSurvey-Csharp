@@ -1,5 +1,5 @@
 # App Survey
-![Preview](https://github.com/AI-Sheet/EXP-AppSurvey-Csharp/blob/main/Photos/Preview.png?raw=true)
+![Preview](https://github.com/AI-Sheet/EXP-AppSurvey-WPF/blob/main/Photos/Preview.png?raw=true)
 
 ## Описание проекта
 Cистема автоматизированного тестирования и оценки IT-компетенций сотрудников. Платформа обеспечивает комплексную диагностику навыков работы с современными цифровыми инструментами и создает детализированные профили компетенций для каждого сотрудника организации.
@@ -27,7 +27,7 @@ Cистема автоматизированного тестирования и
 - Поддержка комментариев и неопределенных ответов
 - Автоматический расчет весовых коэффициентов
 
-![Card](https://github.com/AI-Sheet/EXP-AppSurvey-Csharp/blob/main/Photos/Card.png?raw=true)
+![Card](https://github.com/AI-Sheet/EXP-AppSurvey-WPF/blob/main/Photos/Card.png?raw=true)
 
 ### Аналитическая панель
 Система бизнес-аналитики:
