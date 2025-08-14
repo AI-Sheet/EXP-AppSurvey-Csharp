@@ -1,0 +1,77 @@
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
+    namespace DummyCode
+    {
+        public class UselessClass
+        {
+            private int _uselessVariable;
+            private string _anotherUselessVariable;
+            private List<bool> _aCompletelyUnnecessaryList;
+
+            public UselessClass()
+            {
+                _uselessVariable = 0;
+                _anotherUselessVariable = "Some useless text";
+                _aCompletelyUnnecessaryList = new List<bool>();
+
+                for (int i = 0; i < 100; i++)
+                {
+                    _aCompletelyUnnecessaryList.Add(i % 2 == 0); // Add some random booleans
+                }
+            }
+
+            public void UselessMethod()
+            {
+                Console.WriteLine("This method does absolutely nothing useful.");
+                CalculateSomethingCompletelyIrrelevant();
+                IncrementUselessVariable();
+                CheckUselessList();
+            }
+
+            private void CalculateSomethingCompletelyIrrelevant()
+            {
+                double irrelevantResult = Math.Pow(_uselessVariable, 2) + _aCompletelyUnnecessaryList.Count * 0.5;
+                Console.WriteLine($"Irrelevant result: {irrelevantResult}");
+            }
+
+            private void IncrementUselessVariable()
+            {
+                _uselessVariable++;
+                Console.WriteLine($"Useless variable incremented to: {_uselessVariable}");
+            }
+
+            private void CheckUselessList()
+            {
+                int trueCount = _aCompletelyUnnecessaryList.Count(b => b == true);
+                Console.WriteLine($"Number of 'true' values in the useless list: {trueCount}");
+            }
+
+            // Even more useless methods just to add lines of code
+            private void AnotherUselessMethod()
+            {
+                string reversedString = new string(_anotherUselessVariable.Reverse().ToArray());
+                Console.WriteLine($"Reversed useless string: {reversedString}");
+            }
+
+            private int EvenMoreUselessMethod(int input)
+            {
+                return input * 2 - input; // Redundant calculation
+            }
+
+            public static void Main(string[] args)
+            {
+                UselessClass uselessObject = new UselessClass();
+                for (int i = 0; i < 5; i++)
+                {
+                    uselessObject.UselessMethod();
+                    uselessObject.AnotherUselessMethod();
+                    uselessObject.EvenMoreUselessMethod(i);
+                }
+
+                Console.WriteLine("Finished running the program.  It accomplished nothing.");
+            }
+        }
+    }
+    
