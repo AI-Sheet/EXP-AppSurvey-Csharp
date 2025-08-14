@@ -1,4 +1,4 @@
-# App Survey - Example on Intermark Relocation
+# App Survey
 ![Preview](https://github.com/AI-Sheet/EXP-AppSurvey-Csharp/blob/main/Photos/Preview.png?raw=true)
 
 ## Описание проекта
